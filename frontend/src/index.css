@@ -1,0 +1,11 @@
+.ext{
+    display: none;
+    cursor: pointer;
+}
+.ext:hover{
+    display: block;
+}
+.acc:hover + .ext{
+    display: block;
+
+}
